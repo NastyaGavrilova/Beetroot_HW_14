@@ -1,0 +1,45 @@
+// ссылка на профиль
+.e-info__view-profile {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 24px;
+  border: 1px solid $c-yellow;
+  font-family: $f-link;
+  font-weight: 700;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $c-grey-normal;
+  &:hover {
+    background: $c-yellow;
+  }
+  &:active {
+    transform: scale(1.07);
+  }
+}
+// список с "ссылками" - кружочки в навикации 
+ul {
+  text-align: center;
+  padding-left: 0;
+  list-style: none;
+  font-size: 0;
+  .e-item {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: $c-yellow;
+    border: 1px solid $c-yellow;
+    border-radius: 50%;
+    margin: 5px;
+    &--active {
+      background-color: $c-white;
+    }
+    &:hover {
+      background-color: $c-white;
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+  }
+}

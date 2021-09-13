@@ -1,0 +1,12 @@
+.main {
+  max-width: 1170px;
+  min-width: 420px;
+  margin: 0 auto;
+  position: relative;
+}
+//контейнер для элементов портфолио
+.main__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

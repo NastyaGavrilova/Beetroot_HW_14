@@ -1,0 +1,13 @@
+// Config
+@import "./variables";
+
+// All style
+@import "./components/index";
+@import "./elements/index";
+body {
+  width: 100%;
+  max-width: 1170px;
+  color: $c-yellow;
+  font-family: $f-main;
+  font-size: $fs-info-text;
+}

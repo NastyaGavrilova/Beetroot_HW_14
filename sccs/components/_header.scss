@@ -1,0 +1,52 @@
+.header {
+  text-align: center;
+  width: 455px;
+  position: relative;
+  margin: 0 auto 48px;
+  padding-top: 45px;
+  padding-bottom: 46px;
+  //линия под хэдером
+  &:before {
+    display: block;
+    content: "";
+    position: absolute;
+    background-color: $c-yellow;
+    width: 47%;
+    height: 1px;
+    bottom: 0;
+  }
+  //линия под хэдером
+  &:after {
+    @extend .header:before;
+    right: 0;
+  }
+  // заголовок
+  &__title {
+    text-transform: uppercase;
+    margin: 0;
+    // заголовок маленький
+    &--small {
+      font-size: $fs-title-small;
+      font-family: $f-main;
+      font-weight: 500;
+      line-height: 24px;
+      color: $c-grey-normal;
+    }
+    // заголовок большой
+    &--big {
+      color: $c-yellow;
+      font-family: $f-header;
+      font-size: $fs-title-big;
+      font-weight: 900;
+      line-height: 66px;
+    }
+  }
+
+  // иконка между линиями
+  &__img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}

@@ -1,0 +1,28 @@
+//навигация документа
+.c-nav {
+  padding-bottom: 94px;
+  //стрелки
+  &__arrow {
+    width: 13px;
+    height: 23px;
+
+    position: absolute;
+    top: 270px;
+    &:hover {
+      transform: scale(1.4);
+    }
+    &-left {
+      background: url("../../images/angle-left-icon.png") no-repeat;
+      left: 1%;
+    }
+    &-right {
+      background: url("../../images/angle-right-icon.png") no-repeat;
+      right: 1%;
+    }
+  }
+
+  //навигация
+  &__items {
+    margin-top: 40px;
+  }
+}
