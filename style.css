@@ -8,7 +8,8 @@
   padding-bottom: 46px;
 }
 
-.header:before, .header:after {
+.header:before,
+.header:after {
   display: block;
   content: "";
   position: absolute;
@@ -48,7 +49,7 @@
   bottom: 0;
   left: 50%;
   -webkit-transform: translate(-50%, 50%);
-          transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
 }
 
 .main {
@@ -63,19 +64,19 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c-column {
   padding: 75px 0 67px;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   -ms-flex-negative: 1;
-      flex-shrink: 1;
+  flex-shrink: 1;
   height: 560px;
   max-width: 420px;
 }
@@ -97,7 +98,7 @@
 }
 
 .c-photo__bg-img {
-  background: url(../../images/frame_orange.svg) 50% no-repeat;
+  background: url(./images/frame_orange.svg) 50% no-repeat;
   padding: 15px;
   height: 388px;
 }
@@ -168,11 +169,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 30px;
   height: 30px;
   border: 2px solid #cccccc;
@@ -182,7 +183,7 @@
 
 .c-info__social-links ul li a:hover {
   -webkit-box-shadow: 0 0 5px #ffcc00;
-          box-shadow: 0 0 5px #ffcc00;
+  box-shadow: 0 0 5px #ffcc00;
 }
 
 .c-info__social-links ul li a i {
@@ -203,16 +204,16 @@
 
 .c-nav__arrow:hover {
   -webkit-transform: scale(1.4);
-          transform: scale(1.4);
+  transform: scale(1.4);
 }
 
 .c-nav__arrow-left {
-  background: url("../../images/angle-left-icon.png") no-repeat;
+  background: url("./images/angle-left-icon.png") no-repeat;
   left: 1%;
 }
 
 .c-nav__arrow-right {
-  background: url("../../images/angle-right-icon.png") no-repeat;
+  background: url("./images/angle-right-icon.png") no-repeat;
   right: 1%;
 }
 
@@ -233,16 +234,16 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 120px;
   height: 24px;
   border: 1px solid #ffcc00;
   font-family: sans-serif;
   font-weight: 700;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-transform: uppercase;
   text-decoration: none;
   color: #666666;
@@ -254,7 +255,7 @@
 
 .e-info__view-profile:active {
   -webkit-transform: scale(1.07);
-          transform: scale(1.07);
+  transform: scale(1.07);
 }
 
 ul {
@@ -282,7 +283,7 @@ ul .e-item:hover {
   background-color: #fff;
   cursor: pointer;
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 body {
